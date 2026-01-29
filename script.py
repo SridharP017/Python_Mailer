@@ -29,4 +29,4 @@ def send_email(work_flowname, repo_name,workflow_run_id):
         print(f'Error: {e}')
 
 
-send_email(os.getenv('WORKFLOW_NAME'),os.get('REPO_NAME'),os.getenv('WORKFLOW_RUN_ID'))
+send_email(os.getenv('WORKFLOW_NAME'),os.getenv('REPO_NAME'),os.getenv('WORKFLOW_RUN_ID'))
